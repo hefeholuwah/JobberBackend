@@ -8,6 +8,7 @@ async function bootstrap() {
       'http://localhost:3000',
       'http://127.0.0.1:3000',
       'https://jobber-or6u6ghop-hefeholuwahs-projects.vercel.app',
+      'https://remotelydev.vercel.app',
     ], // Allow requests from your frontend
   });
   await app.listen(3001);
